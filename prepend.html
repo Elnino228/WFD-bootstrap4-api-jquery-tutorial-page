@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/js.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+          integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Title</title>
+</head>
+<body>
+<div class="container-fluid">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary ">
+            <a class="navbar-brand" href="#">API Jquery Tutorial</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false" href="#">Jquery Effects</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">hide()</a>
+                            <a class="dropdown-item" href="#">show()</a>
+                            <a class="dropdown-item" href="#">toggle()</a>
+                            <a class="dropdown-item" href="#">fadeIn()</a>
+                            <a class="dropdown-item" href="#">fadeOut()</a>
+                            <a class="dropdown-item" href="#">slideUp()</a>
+                            <a class="dropdown-item" href="#">slideDown()</a>
+                            <a class="dropdown-item" href="#">animate()</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">Jquery HTML</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">html()</a>
+                            <a class="dropdown-item" href="#">append()</a>
+                            <a class="dropdown-item" href="#">prepend()</a>
+                            <a class="dropdown-item" href="#">css()</a>
+                            <a class="dropdown-item" href="#">text()</a>
+                            <a class="dropdown-item" href="#">attr()</a>
+                            <a class="dropdown-item" href="#">val()</a>
+                            <a class="dropdown-item" href="#">each()</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">Jquery Others</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">find()</a>
+                            <a class="dropdown-item" href="#">on()</a>
+                            <a class="dropdown-item" href="#">off()</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="row bg-warning">
+            <h1 class="text-light display-2" style="text-align: center; margin: auto">API Jquery Tutorial</h1>
+        </div>
+        <div class="row">
+            <div class="side-left bg-secondary col-3">
+
+            </div>
+            <div class="content mt-4 col-6">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td class="font-weight-bold">Name</td>
+                            <td>hide()</td>
+                        </tr>
+                        <tr>
+                            <td class="font-weight-bold">Description</td>
+                            <td>Hide the matched elements</td>
+                        </tr>
+                        <tr>
+                            <td class="font-weight-bold">Syntax</td>
+                            <td>$(selector).hide()</td>
+                        </tr>
+                        <tr>
+                            <td class="font-weight-bold">Example</td>
+                            <td><pre>$( "#clickme" ).click(function() {
+  $( "#book" ).hide( "slow", function() {
+    alert( "Animation complete." );
+  });
+});</pre></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="side-right bg-secondary col-3">
+
+            </div>
+        </div>
+    </div>
+    <footer class="bg-info" style="background-color: #1c7430">
+
+    </footer>
+</div>
+</body>
+</html>
