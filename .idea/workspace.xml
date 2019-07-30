@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afb52bcc-d110-4b21-9d0b-65e8e6f886f7" name="Default Changelist" comment="" />
+    <list default="true" id="afb52bcc-d110-4b21-9d0b-65e8e6f886f7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animate.html" beforeDir="false" afterPath="$PROJECT_DIR$/animate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/append.html" beforeDir="false" afterPath="$PROJECT_DIR$/append.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attr.html" beforeDir="false" afterPath="$PROJECT_DIR$/attr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css.html" beforeDir="false" afterPath="$PROJECT_DIR$/css.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/each.html" beforeDir="false" afterPath="$PROJECT_DIR$/each.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fadeIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/fadeIn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fadeOut.html" beforeDir="false" afterPath="$PROJECT_DIR$/fadeOut.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/find.html" beforeDir="false" afterPath="$PROJECT_DIR$/find.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hide.html" beforeDir="false" afterPath="$PROJECT_DIR$/hide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html.html" beforeDir="false" afterPath="$PROJECT_DIR$/html.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/off.html" beforeDir="false" afterPath="$PROJECT_DIR$/off.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/on.html" beforeDir="false" afterPath="$PROJECT_DIR$/on.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepend.html" beforeDir="false" afterPath="$PROJECT_DIR$/prepend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slideDown.html" beforeDir="false" afterPath="$PROJECT_DIR$/slideDown.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slideUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/slideUp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toggle.html" beforeDir="false" afterPath="$PROJECT_DIR$/toggle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/val.html" beforeDir="false" afterPath="$PROJECT_DIR$/val.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +38,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Oh0plOoovNDmTEl0SJQ3haSiCZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sidebar" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -42,11 +71,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564414705905</updated>
-      <workItem from="1564414708047" duration="4829000" />
+      <workItem from="1564414708047" duration="4949000" />
+      <workItem from="1564449643569" duration="5806000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

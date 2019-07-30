@@ -19,6 +19,7 @@
     <title>Title</title>
 </head>
 <body>
+<!--    content-->
 <div class="container-fluid">
     <header>
         <nav class="navbar navbar-expand-sm navbar-dark bg-primary ">
@@ -80,45 +81,65 @@
     </header>
     <div class="container-fluid">
         <div class="row bg-warning">
-            <h1 class="text-light display-2" style="text-align: center; margin: auto">API Jquery Tutorial</h1>
+            <h1 class="text-light display-4" style="text-align: center; margin: auto">API Jquery Tutorial</h1>
         </div>
         <div class="row">
-            <div class="side-left bg-secondary col-3">
+            <div class="side-left col-3" style="background-color: rgba(119,139,240,0.38)">
 
             </div>
-            <div class="content mt-4 col-6">
-                <table class="table">
-                    <tbody>
-                        <tr>
-                            <td class="font-weight-bold">Name</td>
-                            <td>hide()</td>
-                        </tr>
-                        <tr>
-                            <td class="font-weight-bold">Description</td>
-                            <td>Hide the matched elements</td>
-                        </tr>
-                        <tr>
-                            <td class="font-weight-bold">Syntax</td>
-                            <td>$(selector).hide()</td>
-                        </tr>
-                        <tr>
-                            <td class="font-weight-bold">Example</td>
-                            <td><pre>$( "#clickme" ).click(function() {
-  $( "#book" ).hide( "slow", function() {
-    alert( "Animation complete." );
-  });
-});</pre></td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="content mt-2 col-7">
+                <div class="card">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Jquery Effects</a></li>
+                        <li class="breadcrumb-item active">hide()</li>
+                    </ul>
+                    <div class="card-header bg-secondary text-center text-light"><h3><mark>Hide</mark></h3></div>
+                    <div class="card-body">
+                        <h4 class="card-title">Name:</h4>
+                        <p class="card-text">.hide()</p>
+                        <h4 class="card-title">Description:</h4>
+                        <p class="card-text">Hide the matched elements.</p>
+                        <h4 class="card-title">Syntax:</h4>
+                        <p class="card-text">$(selector).hide()</p>
+                        <h4 class="card-title">Example:</h4>
+                        <p class="card-text">
+                            <pre><mark><code>$( "#clickme" ).click(function() {
+                            $( "#book" ).hide( "slow", function() {
+                            alert( "Animation complete." );
+                            });
+                        });</code></mark></pre>
+                        </p>
+                    </div>
+                    <div class="footer text-center">
+                        <a href="#">Previous</a> |
+                        <a href="#">Next</a>
+                    </div>
+                </div>
             </div>
-            <div class="side-right bg-secondary col-3">
+            <div class="side-right col-2" style="background-color: rgba(119,139,240,0.38)">
 
             </div>
         </div>
     </div>
-    <footer class="bg-info" style="background-color: #1c7430">
-
+    <footer style="background-color: #c2c2c2">
+        <ul class="nav justify-content-center align-content-center">
+            <li class="nav-item">
+                <span class="nav-link">&copy; Dao Van Dat</span>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Support</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#">About</a>
+            </li>
+        </ul>
     </footer>
 </div>
 </body>
